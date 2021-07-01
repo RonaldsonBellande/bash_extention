@@ -1,0 +1,23 @@
+ble-color-setface auto_complete fg=246,italic
+ble-color-setface command_directory fg=white
+
+ble-color-setface filename_link fg=teal
+ble-color-setface filename_block fg=yellow,bg=black
+ble-color-setface filename_character fg=white,bg=black
+ble-color-setface filename_directory fg=while
+ble-color-setface filename_directory_sticky fg=white,bg=26
+ble-color-setface filename_executable fg=green
+ble-color-setface filename_link fg=teal,underline
+ble-color-setface filename_ls_colors fg=246,italic
+ble-color-setface filename_orphan fg=teal,bg=224
+ble-color-setface filename_other fg=246,italic
+ble-color-setface filename_pipe fg=lime,bg=black
+ble-color-setface filename_setgid fg=black,bg=191
+ble-color-setface filename_setuid fg=black,bg=220
+ble-color-setface filename_socket fg=cyan,bg=black
+ble-color-setface filename_url fg=blue
+ble-color-setface filename_warning fg=red
+
+ble-color-setface vbell_erase bg=252
+ble-color-setface vbell_flash fg=green,reverse
+bleopt complete_auto_history=

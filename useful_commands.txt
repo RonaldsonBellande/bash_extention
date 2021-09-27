@@ -1,0 +1,7 @@
+# For git resize .git, if it is geting to big
+git repack -a -d --depth=250 --window=250
+
+# Comverting jupyter file to python file & converting python file to jupyter file 
+ipynb-py-convert
+
+

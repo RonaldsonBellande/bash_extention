@@ -1,0 +1,28 @@
+/etc/cgconfig.conf
+
+group limitmem{
+cpu {
+        cpu.shares = 400;
+}
+memory {
+        memory.limit_in_bytes = 5000m;
+}
+}
+
+group app/terminal {
+cpu {
+        cpu.shares = 300;
+}
+memory {
+        memory.limit_in_bytes = 4000m;
+}
+}
+
+group app/browser {
+cpu {
+        cpu.shares = 50;
+}
+memory {
+        memory.limit_in_bytes = 800m;
+}
+}
